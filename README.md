@@ -1,3 +1,19 @@
+# Analytic Hierarchy Process
+
+A Python implementation of Saaty's Analytic Hierarchy Process. It ranks alternatives using pairwise comparisons and combines the results according to the weights of the criteria.
+
+## Run the example
+
+```bash
+python -m pip install numpy
+python saati.py
+```
+
+Enter the number of criteria and alternatives, then give the requested pairwise comparisons. The program prints the intermediate matrices and the final scores. The original example below compares laptops using battery life, performance, price and brand.
+
+<details>
+<summary>Original project notes</summary>
+
 # Метод Анализа Иерархий (Hierarchy Analysis Method)
 
 Как запустить?
@@ -92,3 +108,4 @@ python saati.py
 ## Вывод
 По решению видно, что лучшим вариантом будет первая альтернатива.
 
+</details>
